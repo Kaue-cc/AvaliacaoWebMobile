@@ -1,3 +1,8 @@
+:root
+{
+    --font--primaria: font-family: 'Manrope', sans-serif;
+}
+
 *
 {
     margin: 0;
@@ -9,9 +14,10 @@
     position: absolute;
     width: 100%;
     height: 90%;
+    z-index: -1;
 }
 
-.nome
+/*.nome
 {
     position: absolute;
     font-size: 20px;
@@ -28,6 +34,100 @@
     color: #fff;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
+}*/
+.cabecalho
+{
+    padding: 55px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nome
+{
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    color: #B5ED3D;
+    padding: 1rem;
+    margin-right: 1100px;
+    font-size: 20px;
+}
+
+.destaque
+{
+    color: #fff;
+}
+
+.apresentacao
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.parte_um
+{
+    display: flex;
+    color: #fff;
+    font-family: var(--font--primaria);
+    font-weight: 700;
+    font-size: 90px;
+    margin-left: 60px;
+}
+
+.parte_dois
+{
+    display: flex;
+    color: #fff;
+    font-family: var(--font--primaria);
+    font-weight: 700;
+    font-size: 90px;
+    margin-left: 120px;
+}
+
+.parte_tres
+{
+    display: flex;
+    color: #fff;
+    font-family: var(--font--primaria);
+    font-weight: 700;
+    font-size: 90px;
+    margin-left: 60px;
+}
+
+.apresentacao_2
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.texto_secundario
+{
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: var(--font--primaria);
+    font-weight: 400;
+    margin-right: 200px;
+    margin-top: -175px;
+}
+
+.cabecalho_1
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.botao_menu
+{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 5px;
+    border-right: 50px;
+    border-left: 50px;
 }
 
 .primeira_img
@@ -39,7 +139,7 @@
     top: 70%;
 }
 
-.botao_menu
+/*.botao_menu
 {
     position: absolute;
     font-family: 'Manrope', sans-serif;
@@ -128,7 +228,7 @@
     transform: rotate(225deg);
     left: 82%;
     top: 46.5%;
-}
+}*/
 
 .circulo_designer
 {
