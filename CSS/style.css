@@ -19,25 +19,35 @@
 
 .cabecalho
 {
-    padding: 55px;
     display: flex;
-    flex-direction: row;
+    padding: 3rem;
+    justify-content: flex-start;
 }
 
 .nome
 {
     display: flex;
-    justify-content: flex-start;
-    background-color: transparent;
-    color: #B5ED3D;
-    padding: 1rem;
-    margin-right: 1100px;
+    font-family: var(--font--primaria);
+    font-weight: 500;
     font-size: 20px;
+    color: #B5ED3D;
+    justify-content: flex-start;
+    margin-right: 80%;
 }
 
 .destaque
 {
     color: #fff;
+}
+
+.botao_menu
+{
+    display: flex;
+    font-family: var(--font--primaria);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 70%;
 }
 
 .apresentacao
@@ -53,7 +63,7 @@
     color: #fff;
     font-family: var(--font--primaria);
     font-weight: 700;
-    font-size: 130px;
+    font-size: 135px;
     margin-left: 60px;
     line-height: 170px;
 }
@@ -64,7 +74,7 @@
     color: #fff;
     font-family: var(--font--primaria);
     font-weight: 700;
-    font-size: 130px;
+    font-size: 135px;
     margin-left: 150px;
     line-height: 150px;
 }
@@ -75,7 +85,7 @@
     color: #fff;
     font-family: var(--font--primaria);
     font-weight: 700;
-    font-size: 130px;
+    font-size: 135px;
     margin-left: 60px;
 }
 
@@ -94,17 +104,10 @@
     font-size: 20px;
     font-family: var(--font--primaria);
     font-weight: 400;
-    margin-right: 200px;
+    margin-right: 140px;
 }
 
-.cabecalho_1
-{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    margin-right: 110px;
-    margin-top: -100px;
-}
+
 
 .botao_menu
 {
@@ -339,67 +342,45 @@
 {
     .nome
     {
-        position: absolute;
-        top: 15px;
-        font-size: 20px;
+        margin: auto;
     }
     .botao_menu
     {
-        position: absolute;
-        left: 65%;
-        top: 8px;
-        font-size: 20px;
+        margin: auto;
     }
 
     .cabecalho2_img
     {
-        position: absolute;
-        top: 25px;
-        width: 40px;
-        height: 15px;
-        left: 88%;
+        margin: auto;
     }
 
     .cabecalho_img
     {
-        position: absolute;
-        height: 120%;
-        width: auto;
+        margin: auto;
     }
 
     .primeira_img
     {
-        position: absolute;
-        top: 95%;
-        height: 50%;
+        margin: auto;
     }
 
     .parte_um
     {
-        position: absolute;
-        top: 15%;
-        font-size: 72px;
+        margin: auto;
     }
 
     .parte_dois
     {
-        position: absolute;
-        top: 27%;
-        font-size: 72px;
-        left: 20%;
+        margin: auto;
     }
 
     .parte_tres
     {
-        position: absolute;
-        top: 38%;
-        font-size: 72px;
+        margin: auto;
     }
 
     .texto_secundario
     {
-        position: absolute;
-        top: 65%;
-        left: 10%;
+        margin: auto;
     }
 }
