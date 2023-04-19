@@ -175,12 +175,13 @@
 .service
 {
     position: absolute;
-    background: #000000;
-    top: 270%;
-    width: 94.76%;
-    height: 60%;
-    padding: 2.5rem;
-    padding-top: 6rem;
+    background: #000;
+    top: 265%;
+    height: 500px;
+    width: 97.9%;
+    padding: 1rem;
+    padding-top: 8rem;
+    padding-bottom: -500px;
 }
 
 .botao_grupo1
@@ -1156,6 +1157,16 @@
     margin-left: 10px;
 }
 
+.companias2_img
+{
+    width: 0;
+}
+
+.companias3_img
+{
+    width: 0;
+}
+
 .youtube
 {
     position: absolute;
@@ -1410,7 +1421,7 @@
         position: absolute;
         top: 180%;
         height: 500px;
-        width: 100%;
+        width: 359px;
         padding: 1rem;
         padding-top: 6rem;
         padding-bottom: -500px;
@@ -1990,7 +2001,7 @@
     .mensagem1
     {
         position: absolute;
-        left: -5px;
+        left: 20px;
         width: 289px;
         height: 374px;
     }
@@ -1998,17 +2009,17 @@
     .mensagem2
     {
         position: absolute;
-        left: 290px;
-        width: 289px;
-        height: 374px;
+        left: -5px;
+        width: 0;
+        height: 0;
     }
 
     .mensagem3
     {
         position: absolute;
-        left: 390px;
-        width: 289px;
-        height: 374px;
+        left: -5px;
+        width: 0;
+        height: 0;
     }
 
     .circulo_av
@@ -2022,18 +2033,140 @@
     {
         position: absolute;
         top: 1000%;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .companias_texto
     {
         position: relative;
         font-size: 22px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .companias_img
     {
-        width: 50px;
+        width: 0;
+    }
+
+    .companias_img_mobile
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .companias2_img
+    {
+        width: 375px;
+    }
+
+    .companias3_img
+    {
+        width: 375px;
+    }
+
+    .youtube
+    {
+        position: absolute;
+        width: 215px;
+        height: 120px;
+        top: 1040%;
+        left: 20px;
+        border-radius: 50px;
+    }
+
+    .texto_you
+    {
+        position: absolute;
+        left: 10px;
+        font-size: 22px;
+        top: 20%;
+    }
+
+    .in
+    {
+        position: absolute;
+        margin-left: 40px;
+        font-size: 22px;
+    }
+
+    .subscribe
+    {
+        position: absolute;
+        top: 70%;
+        margin-left: 0;
+    }
+
+    .final
+    {
+        position: absolute;
+        top: 1100%;
+        width: 358px;
+        height: 500px;
+        padding: 1rem;
+        padding-top: 5rem;
+    }
+
+    .final_cont_texto1
+    {
+        font-size: 50px;
+    }
+
+    .letstalk
+    {
+        position: absolute;
+        margin-top: 25px;
+        width: 110px;
+        height: 30px;
+        padding-right: 5rem; 
+    }
+
+    .circulo_verde
+    {
+        position: absolute;
+        top: 10px;
+        margin-left: 120px;
+    }
+
+    .redes_sociais_texto
+    {
+        position: absolute;
+        left: -100px;
+        opacity: 0;
+    }
+
+    .molo
+    {
+        position: absolute;
+        font-size: 18px;
+        left: 20px;
+    }
+
+    .contact
+    {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .contact_guia
+    {
+        font-size: 10px;
+        width: 10px;
+    }
+
+    .linha_rodadape
+    {
+        margin-top: 25px;
+    }
+
+    .rodape1
+    {
+        font-size: 0px;
+        opacity: 0;
+    }
+
+    .rodape2
+    {
+        font-size: 10px;
     }
 }
