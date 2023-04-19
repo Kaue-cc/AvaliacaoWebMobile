@@ -1441,7 +1441,7 @@
     {
         position: absolute;
         font-size: 25px;
-        margin-left: -20px;
+        margin-left: -15px;
         top: 28%;
     }
 
@@ -1449,7 +1449,7 @@
     {
         position: absolute;
         font-size: 25px;
-        margin-left: 165px;
+        margin-left: 160px;
         top: 28%;
     }
 
@@ -1457,7 +1457,7 @@
     {
         position: absolute;
         font-size: 25px;
-        margin-left: -20px;
+        margin-left: -15px;
         top: 40%;
     }
 
@@ -1465,23 +1465,23 @@
     {
         position: absolute;
         font-size: 25px;
-        margin-left: 220px;
+        margin-left: 215px;
         top: 40%;
     }
 
     .botao4
     {
         position: absolute;
-        font-size: 25px;
-        margin-left: -20px;
+        font-size: 23px;
+        margin-left: -15px;
         top: 52%;
     }
 
     .botao5
     {
         position: absolute;
-        font-size: 25px;
-        margin-left: 195px;
+        font-size: 23px;
+        margin-left: 180px;
         top: 52%;
     }
 
@@ -1489,15 +1489,15 @@
     {
         position: absolute;
         font-size: 25px;
-        margin-left: -20px;
+        margin-left: -15px;
         top: 76%;
     }
 
     .botao8
     {
         position: absolute;
-        font-size: 25px;
-        margin-left: -20px;
+        font-size: 23px;
+        margin-left: -15px;
         top: 64%;
     }
 
@@ -1505,7 +1505,7 @@
     {
         position: absolute;
         font-size: 25px;
-        margin-left: 210px;
+        margin-left: 205px;
         top: 76%;
     }
 
