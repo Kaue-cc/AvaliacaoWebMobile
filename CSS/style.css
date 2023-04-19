@@ -1,6 +1,7 @@
 :root
 {
     --font--primaria:  'Manrope', sans-serif;
+    --font--secundaria: 'Inter', sans-serif;
 }
 
 *
@@ -47,7 +48,7 @@
     font-weight: 600;
     font-size: 18px;
     padding: 5px;
-    margin-left: 70%;
+    margin-left: 78%;
 }
 
 .apresentacao
@@ -993,49 +994,1038 @@
     padding-right: 50px;
 }
 
+.Take
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 4rem;
+    top: 960%;
+}
+
+.take_texto1
+{
+    font-family: var(--font--primaria);
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.linhatake
+{
+    display: flex;
+    position: absolute;
+    padding-left: 4rem;
+    top: 980%;
+    left: 18%;
+}
+
+.linha_take
+{
+    width: 127px;
+}
+
+.img_take
+{
+    display: flex;
+    position: absolute;
+    padding-left: 4rem;
+    top: 970%;
+    left: 35%;
+}
+
+.take_img
+{
+    width: 200px;
+    height: 200px;
+}
+
+.wecan
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 4rem;
+    top: 980%;
+    left: 65%;
+}
+
+.wecan_texto1
+{
+    font-family: var(--font--primaria);
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.wecan_texto2
+{
+    margin-left: 32%;
+}
+
+.linhawecan
+{
+    display: flex;
+    position: absolute;
+    padding-left: 4rem;
+    top: 1000%;
+    left: 63%;
+}
+
+.linha_wecan
+{
+    width: 127px;
+}
+
+.clientes
+{
+    flex-direction: column;
+    position: absolute;
+    top: 1030%;
+    left: 30%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.texto_cliente_apresentacao1
+{
+    font-family: var(--font--primaria);
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.texto_cliente_apresentacao2
+{
+    font-family: var(--font--primaria);
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.avaliacao
+{
+    position: absolute;
+    top: 1050%;
+    padding: 5rem;
+}
+
+.mensagem2
+{
+    width: 400px;
+    height: 500px;
+    margin: 25px;
+}
+
+.mensagem3
+{
+    width: 400px;
+    height: 500px;
+    margin:25px;
+}
+
+.mensagem1
+{
+    width: 400px;
+    height: 500px;
+    margin: 25px;
+}
+
+.circulo_av
+{
+    position: absolute;
+    top: 1140%;
+    left: 45%;
+}
+
+.companias
+{
+    position: absolute;
+    top: 1200%;
+}
+
+.companias_texto
+{
+    font-family: var(--font--primaria);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100px;
+    margin-left: 38%;
+}
+
+.companias_img
+{
+    width: 1502px;
+    margin-left: 10px;
+}
+
+.youtube
+{
+    position: absolute;
+    top: 1250%;
+    padding: 3rem;
+    border: 20px #F1F4F8 solid;
+    border-radius: 100px;
+    background-color: #F1F4F8;
+    width: 70%;
+    height: 30%;
+    left: 10%;
+}
+
+.youtube_texto
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.texto_you
+{
+    font-family: var(--font--primaria);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.in
+{
+    margin-left: 55px;
+    line-height: 50px;
+}
+
+.subscribe
+{
+    border: 2px #B5ED3D solid;
+    background-color: #B5ED3D;
+    border-radius: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-family: var(--font--primaria);
+    font-weight: 600;
+    font-size: 18px;
+    border-width: 10px;
+    margin-left: 230px;
+}
+
+.final
+{
+    position: absolute;
+    background: #B5ED3D;
+    top: 1320%;
+    width: 89.45%;
+    height: 95%;
+    padding: 5rem;
+}
+
+.final_cont_texto1
+{
+    font-family: var(--font--primaria);
+    font-weight: 600;
+    font-size: 100px;
+}
+
+.letstalk
+{
+    border: 2px #ffffff solid;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 1rem;
+    padding-right: 8rem;
+    padding-left: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+}
+
+.circulo_verde
+{
+    position: absolute;
+    top: 49%;
+    left: 18%;
+}
+
+.redessociais
+{
+    position: absolute;
+    top: 25%;
+    left: 88%;
+}
+
+.redes_sociais_texto
+{
+    text-align: right;
+    line-height: 30px;
+    font-family: var(--font--primaria);
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.teamoolo
+{
+    display: flex;
+    margin-top: 200px;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.molo
+{
+    font-family: var(--font--primaria);
+    font-weight: 500;
+    font-size: 54px;
+}
+
+.contact
+{
+    display: flex;
+    margin-left: 500px;
+}
+
+.contact_guia
+{
+    font-family: var(--font--secundaria);
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.linha_rodadape
+{
+    border: 1px #000 solid;
+    width: 100%;
+}
+
+.rodape_pagina
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: var(--font--primaria);
+    font-weight: 400;
+    font-size: 18px;
+}
+
 @media (max-width: 768px)
 {
-    .nome
+    *
     {
-        margin: auto;
-    }
-    .botao_menu
-    {
-        margin: auto;
-    }
-
-    .cabecalho2_img
-    {
-        margin: auto;
+        width: auto;
+        padding: 0;
     }
 
     .cabecalho_img
     {
-        margin: auto;
+        height: 625px;
     }
 
-    .primeira_img
+    .nome_marc
     {
-        margin: auto;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 22px;
+    }
+
+    .botao_menu
+    {
+        position: absolute;
+        font-size: 14px;
+        top: 10px;
+        margin-left: 90px;
+        right: 10%;
+    }
+
+    .cabecalho2_img
+    {
+        position: absolute;
+        width: 25px;
+        left: 85%;
+        top: 25px;
     }
 
     .parte_um
     {
-        margin: auto;
+        font-size: 55px;
+        position: absolute;
+        margin-left: 25px;
+        top: 50px;
     }
 
     .parte_dois
     {
-        margin: auto;
+        font-size: 55px;
+        position: absolute;
+        margin-left: 80px;
+        top: 125px;
     }
 
     .parte_tres
     {
-        margin: auto;
+        font-size: 55px;
+        position: absolute;
+        margin-left: 25px;
+        top: 225px;
     }
 
     .texto_secundario
     {
-        margin: auto;
+        position: absolute;
+        top: 360px;
+        margin-right: 120px;
+    }
+
+    .primeira_img
+    {
+        position: absolute;
+        top: 550px;
+        left: 2%;
+        height: auto;
+        width: 95%;
+    }
+
+    .circulo_designer
+    {
+        position: absolute;
+        top: 540px;
+        left: 265px;
+        height: 25px;
+        width: 25px;
+    }
+
+    .segunda-parte
+    {
+        position: absolute;
+        padding: 1rem;
+        top: 110%;
+    }
+
+    .hello
+    {
+        font-size: 18px;
+    }
+
+    .texto_terciario
+    {
+        font-size: 23.2px;
+    }
+
+    .service
+    {
+        position: absolute;
+        top: 180%;
+        height: 500px;
+        width: 100%;
+        padding: 1rem;
+        padding-top: 6rem;
+        padding-bottom: -500px;
+    }
+
+    .botao1
+    {
+        position: absolute;
+        font-size: 25px;
+        margin-left: -15px;
+        top: 28%;
+    }
+
+    .botao3
+    {
+        position: absolute;
+        font-size: 25px;
+        margin-left: 160px;
+        top: 28%;
+    }
+
+    .botao2
+    {
+        position: absolute;
+        font-size: 25px;
+        margin-left: -15px;
+        top: 40%;
+    }
+
+    .botao9
+    {
+        position: absolute;
+        font-size: 25px;
+        margin-left: 215px;
+        top: 40%;
+    }
+
+    .botao4
+    {
+        position: absolute;
+        font-size: 25px;
+        margin-left: -15px;
+        top: 52%;
+    }
+
+    .botao5
+    {
+        position: absolute;
+        font-size: 25px;
+        margin-left: 190px;
+        top: 52%;
+    }
+
+    .botao6
+    {
+        position: absolute;
+        font-size: 25px;
+        margin-left: -15px;
+        top: 76%;
+    }
+
+    .botao8
+    {
+        position: absolute;
+        font-size: 25px;
+        margin-left: -15px;
+        top: 64%;
+    }
+
+    .botao7
+    {
+        position: absolute;
+        font-size: 25px;
+        margin-left: 205px;
+        top: 76%;
+    }
+
+    .Work
+    {
+        position: absolute;
+        top: 270%;
+        padding: 0.5rem;
+        margin-left: 5%;
+    }
+
+    .select
+    {
+        font-size: 45px;
+    }
+
+    .select_texto
+    {
+        font-size: 14px;
+    }
+
+    /*brand*/
+    .branding_img
+    {
+        position: absolute;
+        top: 290%;
+        padding: 1rem;
+    }
+
+    .brand_img1
+    {
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .brand_img2
+    {
+        margin-left: -5%;
+    }
+
+    .branding_texto
+    {
+        position: absolute;
+        padding: 1rem;
+        margin-left: -50%;
+        top: 350%;
+    }
+
+    .brand_texto
+    {
+        font-size: 30px;
+    }
+
+    .brand_texto1
+    {
+        font-size: 14px;
+    }
+
+    .brand1
+    {
+        position: absolute;
+        width: 12%;
+        padding-left: 20px;
+        margin-left: -5%;
+    }
+
+    .brand2
+    {
+        position: absolute;
+        width: 14%;
+        padding-left: 16px;
+        margin-left: 29%
+    }
+
+    .brand3
+    {
+        position: absolute;
+        width: 20%;
+        padding-left: 10px;
+        margin-left: 63.5%
+    }
+
+    /*appliction*/
+    .application_img
+    {
+        position: absolute;
+        top: 390%;
+        padding: 1rem;
+    }
+
+    .appli_img1
+    {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: -580%;
+    }
+
+    .appli_img2
+    {
+        position: absolute;
+        top: 1080%;
+        margin-left: -205%;
+        height: 60px;
+        width: 60px;
+    }
+
+    .application_texto
+    {
+        position: absolute;
+        padding: 1rem;
+        margin-left: -6%;
+        top: 445%;
+    }
+
+    .appli_texto
+    {
+        font-size: 30px;
+    }
+
+    .appli_texto1
+    {
+        font-size: 14px;
+    }
+
+    .appli1
+    {
+        position: absolute;
+        width: 12%;
+        padding-left: 20px;
+        margin-left: -5%;
+    }
+
+    .appli2
+    {
+        position: absolute;
+        width: 14%;
+        padding-left: 16px;
+        margin-left: 29%
+    }
+
+    .appli3
+    {
+        position: absolute;
+        width: 20%;
+        padding-left: 10px;
+        margin-left: 63.5%
+    }
+
+    /*branning*/
+    .branning_img
+    {
+        position: absolute;
+        top: 490%;
+        padding: 1rem;
+    }
+
+    .branni_img1
+    {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+    }
+
+    .branni_img2
+    {
+        position: absolute;
+        top: 1080%;
+        margin-left: 410%;
+        height: 60px;
+        width: 60px;
+    }
+
+    .branning_texto
+    {
+        position: absolute;
+        padding: 1rem;
+        margin-left: -50%;
+        top: 545%;
+    }
+
+    .branni_texto
+    {
+        font-size: 30px;
+    }
+
+    .branni_texto1
+    {
+        font-size: 14px;
+    }
+
+    .branni1
+    {
+        position: absolute;
+        width: 12%;
+        padding-left: 20px;
+        margin-left: -5%;
+    }
+
+    .branni2
+    {
+        position: absolute;
+        width: 14%;
+        padding-left: 16px;
+        margin-left: 29%
+    }
+
+    .branni3
+    {
+        position: absolute;
+        width: 20%;
+        padding-left: 10px;
+        margin-left: 63.5%
+    }
+
+    /*pack*/
+    .packaging_img
+    {
+        position: absolute;
+        top: 590%;
+        padding: 1rem;
+    }
+
+    .pack_img1
+    {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: -580%;
+    }
+
+    .pack_img2
+    {
+        position: absolute;
+        top: 1080%;
+        margin-left: -205%;
+        height: 60px;
+        width: 60px;
+    }
+
+    .packaging_texto
+    {
+        position: absolute;
+        padding: 1rem;
+        margin-left: -6%;
+        top: 645%;
+    }
+
+    .pack_texto
+    {
+        font-size: 30px;
+    }
+
+    .pack_texto1
+    {
+        font-size: 14px;
+    }
+
+    .pack1
+    {
+        position: absolute;
+        width: 12%;
+        padding-left: 20px;
+        margin-left: -5%;
+    }
+
+    .pack2
+    {
+        position: absolute;
+        width: 14%;
+        padding-left: 16px;
+        margin-left: 29%
+    }
+
+    .pack3
+    {
+        position: absolute;
+        width: 20%;
+        padding-left: 10px;
+        margin-left: 63.5%
+    }
+
+    /*Web1*/
+    .WebSite_1_img
+    {
+        position: absolute;
+        top: 690%;
+        padding: 1rem;
+    }
+
+    .Web_1_img1
+    {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+    }
+
+    .Web_1_img2
+    {
+        position: absolute;
+        top: 1080%;
+        margin-left: 410%;
+        height: 60px;
+        width: 60px;
+    }
+
+    .WebSite_1_texto
+    {
+        position: absolute;
+        padding: 1rem;
+        margin-left: -50%;
+        top: 745%;
+    }
+
+    .Web_1_texto
+    {
+        font-size: 30px;
+    }
+
+    .Web_1_texto1
+    {
+        font-size: 14px;
+    }
+
+    .Web_11
+    {
+        position: absolute;
+        width: 12%;
+        padding-left: 20px;
+        margin-left: -5%;
+    }
+
+    .Web_12
+    {
+        position: absolute;
+        width: 14%;
+        padding-left: 16px;
+        margin-left: 29%
+    }
+
+    .Web_13
+    {
+        position: absolute;
+        width: 20%;
+        padding-left: 10px;
+        margin-left: 63.5%
+    }
+
+    /*Web2*/
+    .WebSite_2_img
+    {
+        position: absolute;
+        top: 790%;
+        padding: 1rem;
+    }
+
+    .Web_2_img1
+    {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: -580%;
+    }
+
+    .Web_2_img2
+    {
+        position: absolute;
+        top: 1080%;
+        margin-left: -205%;
+        height: 60px;
+        width: 60px;
+    }
+
+    .WebSite_2_texto
+    {
+        position: absolute;
+        padding: 1rem;
+        margin-left: -6%;
+        top: 845%;
+    }
+
+    .Web_2_texto
+    {
+        font-size: 30px;
+    }
+
+    .Web_2_texto1
+    {
+        font-size: 14px;
+    }
+
+    .Web_21
+    {
+        position: absolute;
+        width: 12%;
+        padding-left: 20px;
+        margin-left: -5%;
+    }
+
+    .Web_22
+    {
+        position: absolute;
+        width: 14%;
+        padding-left: 16px;
+        margin-left: 29%
+    }
+
+    .Web_23
+    {
+        position: absolute;
+        width: 20%;
+        padding-left: 10px;
+        margin-left: 63.5%
+    }
+
+    .Take
+    {
+        position: absolute;
+        padding: 1rem;
+        top: 890%;
+    }
+
+    .take_texto1
+    {
+        font-size: 24px;
+    }
+
+    .linhatake
+    {
+        position: absolute;
+        top: 898.5%;
+        left: 50px;
+    }
+
+    .linha_take
+    {
+        width: 50px;
+    }
+
+    .img_take
+    {
+        position: absolute;
+        top: 895%;
+        left: 105px;
+    }
+
+    .take_img
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    .wecan
+    {
+        position: absolute;
+        top: 898%;
+        left: 190px;
+    }
+
+    .wecan_texto1
+    {
+        font-size: 24px;
+    }
+
+    .linhawecan
+    {
+        position: absolute;
+        top: 904%;
+        left: 170px;
+    }
+
+    .linha_wecan
+    {
+        width: 50px;
+    }
+
+    .clientes
+    {
+        position: absolute;
+        top: 920%;
+        padding: 10px;
+        left: 20px;
+    }
+
+    .texto_cliente_apresentacao1
+    {
+        font-size: 30px;
+    }
+
+    .texto_cliente_apresentacao2
+    {
+        font-size: 30px;
+    }
+
+    .avaliacao
+    {
+        position: absolute;
+        top: 930%;
+        padding: 10px;
+    }
+
+    .mensagem1
+    {
+        position: absolute;
+        left: -5px;
+        width: 289px;
+        height: 374px;
+    }
+
+    .mensagem2
+    {
+        position: absolute;
+        left: 290px;
+        width: 289px;
+        height: 374px;
+    }
+
+    .mensagem3
+    {
+        position: absolute;
+        left: 390px;
+        width: 289px;
+        height: 374px;
+    }
+
+    .circulo_av
+    {
+        position: absolute;
+        top: 990%;
+        left: 130px;
+    }
+
+    .companias
+    {
+        position: absolute;
+        top: 1000%;
+    }
+
+    .companias_img
+    {
+        width: 5px;
     }
 }
