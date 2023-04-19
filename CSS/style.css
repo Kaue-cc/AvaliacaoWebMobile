@@ -1192,6 +1192,9 @@
     font-family: var(--font--primaria);
     font-weight: 700;
     font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
 }
 
 .in
@@ -1208,11 +1211,13 @@
     text-decoration: none;
     text-align: center;
     color: #000;
+    height: 30px;
     font-family: var(--font--primaria);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
     border-width: 10px;
-    margin-left: 230px;
+    position: absolute;
+    top: 70%;
 }
 
 .final
@@ -1310,6 +1315,11 @@
     font-family: var(--font--primaria);
     font-weight: 400;
     font-size: 18px;
+}
+
+.rodape2
+{
+    font-size: 0px;
 }
 
 @media (max-width: 768px)
