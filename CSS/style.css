@@ -2022,10 +2022,18 @@
     {
         position: absolute;
         top: 1000%;
+        padding: 1rem;
+    }
+
+    .companias_texto
+    {
+        position: relative;
+        font-size: 22px;
+        margin-left: 20px;
     }
 
     .companias_img
     {
-        width: 5px;
+        width: 50px;
     }
 }
