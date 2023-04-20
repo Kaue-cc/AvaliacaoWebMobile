@@ -2015,7 +2015,7 @@
     .mensagem1
     {
         position: absolute;
-        left: 20px;
+        left: 5px;
         width: 289px;
         height: 374px;
     }
@@ -2072,11 +2072,13 @@
     .companias2_img
     {
         width: 375px;
+        left: 10px
     }
 
     .companias3_img
     {
         width: 375px;
+        left: 10px
     }
 
     .youtube
@@ -2085,7 +2087,7 @@
         width: 215px;
         height: 120px;
         top: 1040%;
-        left: 20px;
+        left: 30px;
         border-radius: 50px;
     }
 
