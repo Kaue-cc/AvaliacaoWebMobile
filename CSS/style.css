@@ -1670,7 +1670,7 @@
         position: absolute;
         width: 350px;
         height: 350px;
-        left: 75%;
+        left: 100%;
     }
 
     .branni_img2
@@ -2009,6 +2009,7 @@
         position: absolute;
         top: 930%;
         padding: 10px;
+        margin-left: 50%;
     }
 
     .mensagem1
