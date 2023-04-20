@@ -2009,13 +2009,12 @@
         position: absolute;
         top: 930%;
         padding: 10px;
-        margin-left: 50%;
+        margin-left: 10%;
     }
 
     .mensagem1
     {
         position: absolute;
-        left: 5px;
         width: 289px;
         height: 374px;
     }
@@ -2067,18 +2066,17 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        margin-left: 50px;
     }
 
     .companias2_img
     {
-        width: 375px;
-        left: 10px
+        width: 375px
     }
 
     .companias3_img
     {
         width: 375px;
-        left: 10px
     }
 
     .youtube
