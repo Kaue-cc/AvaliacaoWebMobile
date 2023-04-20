@@ -1540,6 +1540,7 @@
         margin-top: 50px;
         height: 100%;
         width: 100%;
+        left: 65%;
     }
 
     .brand_img2
@@ -1602,7 +1603,7 @@
         position: absolute;
         width: 350px;
         height: 350px;
-        left: -585%;
+        left: -570%;
     }
 
     .appli_img2
@@ -1669,6 +1670,7 @@
         position: absolute;
         width: 350px;
         height: 350px;
+        left: 65%;
     }
 
     .branni_img2
@@ -1735,7 +1737,7 @@
         position: absolute;
         width: 350px;
         height: 350px;
-        left: -585%;
+        left: -570%;
     }
 
     .pack_img2
@@ -1802,6 +1804,7 @@
         position: absolute;
         width: 350px;
         height: 350px;
+        left: 65%;
     }
 
     .Web_1_img2
@@ -1868,7 +1871,7 @@
         position: absolute;
         width: 350px;
         height: 350px;
-        left: -585%;
+        left: -570%;
     }
 
     .Web_2_img2
